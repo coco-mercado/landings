@@ -1,0 +1,1012 @@
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.font-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.font-normal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.font-light{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.App-link {
+    color: #61dafb;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.text-cl {
+    color: green;
+}
+.quote-icon-2{
+  animation: ease-out;
+}
+
+.carousel-item {
+    height: 60vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item-landing {
+    height: 60vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-caption {
+    text-align: left !important;
+    bottom: 20% !important;
+    left: 10% !important;
+}
+.landing-bg {
+    background-image: url('../../public/images/landing-background.png');
+    background-color: #6b7a80;
+    /* filter: grayscale(0.5);
+    */
+}
+.merchant-bg {
+    background-image: url('../../public/images/edit-1.png');
+    opacity: 0.89;
+    /* filter: grayscale(0.5);
+    */
+    background-color: #6b7a80;
+}
+.productores-bg {
+    background-image: url('../../public/images/producer-background.png');
+
+    /* filter: grayscale(0.5);
+    */
+}
+.repartidores-bg {
+    background-image: url('../../public/images/edit-3.png');
+
+    /* filter: grayscale(0.5);
+    */
+    background-color: #009bd9;
+}
+.intro-line {
+    line-break: normal;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.call-to{
+    margin-bottom:150px;
+}
+.intro-text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.custom-card {
+  z-index: -10;
+}
+.intro-text span {
+    color: #1dc778;
+    font-weight: 700;
+}
+
+.app-header-back {
+    background-color: #1dc778 !important;
+}
+.app-header-back .app-header-button {
+    background-color: #fff;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 20px;
+    max-width: 200px;
+    padding: 5px 15px;
+    margin-top: -2px;
+    text-align: center;
+}
+.app-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.text-center {
+    text-align: center;
+}
+a{
+    color:#ffffff !important;
+}
+
+.product-call-head {
+    /* Style for "¿Cómo func" */
+    color: #1dc778;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.product-call-text span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 55.56px;
+}
+.product-call-text img {
+    width: 20px;
+    margin-right: 10px;
+}
+.details-box {
+    background-color: #fafafa;
+    padding: 0% 15%;
+}
+.details-box h1 {
+    /* Style for "VENDE" */
+    color: #1dc778;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.details-box img {
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details-box .detail {
+    font-family: Poppins;
+
+    font-size: 14px;
+    font-weight: 500;
+    /* font-family: "Poppins Light";
+    */
+    color: #44535b;
+    /* font-family: "Poppins-Medium";
+    */
+}
+.details-box .detail span {
+    color: #1dc778;
+    font-family: "Poppins - Bold";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.extra-details {
+    background-color: red;
+}
+.product-register-button {
+    background-color: #1dc778;
+    color: white;
+    /* Style for "¡Regístrat" */
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 20px;
+    max-width: 250px;
+    padding: 5px 10px;
+    margin: 40px auto;
+}
+.app-register {
+    background-color: #1dc778;
+}
+.register-text {
+    /* Style for "Quiero abr" */
+    color: #fff;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.register-button {
+    background-color: #fbd600;
+    /* Style for "¡Regístrat" */
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 20px;
+    max-width: 200px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    border:none;
+}
+.download-images img {
+    margin: 20px 10px;
+    height: 60px;
+}
+.download-text {
+    /* Style for "Descarga l" */
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-icons img {
+    width: 40px;
+    margin: 10px;
+}
+.footer-owner {
+    margin-bottom: 20px;
+    color: #424242;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+}
+.app-footer {
+    border: 1px solid #ebebeb;
+}
+.footer-underline {
+    background-color: #1dc778;
+    border-radius: 3px;
+    height: 4px;
+    max-width: 20px;
+    text-align: center;
+    margin: auto;
+}
+.footer-text {
+    margin-top: 20px;
+    color: #a2aaae;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+}
+.logos-images {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.logos-images img {
+    width: 150px;
+    margin-left: 60px;
+}
+@media only screen and (max-width: 600px) {
+    .details-box {
+        padding: 0px;
+    }
+    .quote-icon {
+        width: 40px;
+    }
+    .logos-images {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logos-images img {
+        display: block;
+        margin: 20px auto;
+        width: 50vw;
+    }
+}
+.paper {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+    border-color: #dedede;
+}
+/* .paper-raise {
+	:before {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	:hover {
+		border: 1px solid #fff;
+		:before {
+			box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+		}
+	}
+}
+*/
+/* .paper-raise::before{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+*/
+/* .paper-raise:hover{
+	border: 1px solid #fff;
+}
+*/
+.paper-raise:hover {
+    box-shadow: 0 3px 5px 2px #484646 !important;
+    transition: all 250ms ease-out;
+}
+.paper-raise {
+    transition: all 250ms ease-out;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    outline-width: 0 !important;
+}
+.card {
+    border-radius: 15px !important;
+}
+/* RESPONSIVE DESIGN*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+@font-face {
+    font-family: Poppins;
+    src: url("https://fonts.googleapis.com/css2?family=Poppins");
+}
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.font-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.font-normal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.App-link {
+    color: #61dafb;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.text-cl {
+    color: green;
+}
+.carousel-item {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-item-landing {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-caption {
+    text-align: left !important;
+    bottom: 20% !important;
+    left: 10% !important;
+}
+.landing-bg {
+    background-image: url('../../public/images/landing-background.png');
+    background-color: #6b7a80;
+    /* filter: grayscale(0.5);
+    */
+}
+.merchant-bg {
+    background-image: url('../../public/images/edit-1.png');
+    opacity: 0.89;
+    /* filter: grayscale(0.5);
+    */
+    background-color: #6b7a80;
+}
+.productores-bg {
+    background-image: url('../../public/images/edit-2.png');
+    opacity: 0.89;
+    /* filter: grayscale(0.5);
+    */
+    background-color: #6b7a80;
+}
+.repartidores-bg {
+    background-image: url('../../public/images/edit-3.png');
+
+    /* filter: grayscale(0.5);
+    */
+
+}
+.intro-line {
+    line-break: normal;
+    color: #fff;
+    font-size: 40px;
+}
+.intro-text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-text span {
+    color: #1dc778;
+    font-weight: 700;
+}
+.intro-button {
+    background-color: #1dc778;
+    color: white;
+    font-family: Poppins,sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    max-width: 250px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+}
+.intro-button:hover{
+    background-color: #fbd601;
+    color: white;
+}
+
+.app-header-back {
+    background-color: #1dc778 !important;
+}
+.app-header-back .app-header-button {
+    background-color: #fff;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 20px;
+    max-width: 200px;
+    padding: 5px 15px;
+    margin-top: -2px;
+    text-align: center;
+}
+.app-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.text-center {
+    text-align: center;
+}
+.product-call-head {
+    /* Style for "¿Cómo func" */
+    color: #1dc778;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.product-call-text span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 55.56px;
+}
+.product-call-text img {
+    width: 20px;
+    margin-right: 10px;
+}
+.details-box {
+    background-color: #fafafa;
+    padding: 0% 15%;
+}
+.details-box h1 {
+    /* Style for "VENDE" */
+    color: #1dc778;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.details-box img {
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details-box .detail {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    /* font-family: "Poppins Light";
+    */
+    color: #44535b;
+    /* font-family: "Poppins-Medium";
+    */
+}
+.details-box .detail span {
+    color: #1dc778;
+    font-family: Poppins;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.extra-details {
+    background-color: red;
+}
+.product-register-button {
+    background-color: #1dc778;
+    color: white;
+    /* Style for "¡Regístrat" */
+    font-size: 14px;
+    border-radius: 20px;
+    max-width: 217px;
+    padding: 5px 10px;
+    margin: 40px auto;
+    border: none;
+}
+.testimonial{
+    margin-top:20px;
+    color:#44535B;
+}
+.app-register {
+    background-image:url("../../public/images/mapa.svg") ;
+}
+.register-text {
+    /* Style for "Quiero abr" */
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.register-button {
+    background-color: #fbd600;
+    /* Style for "¡Regístrat" */
+    color: #44535b;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    max-width: 200px;
+    padding: 5px 10px;
+    margin: 20px auto;
+}
+.download-images img {
+    margin: 20px 10px;
+    height: 60px;
+}
+.download-text {
+    /* Style for "Descarga l" */
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-icons img {
+    width: 40px;
+    margin: 10px;
+}
+.footer-owner {
+    margin-bottom: 20px;
+    color: #424242;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+}
+.app-footer {
+    border: 1px solid #ebebeb;
+}
+.footer-underline {
+    background-color: #1dc778;
+    border-radius: 3px;
+    height: 4px;
+    max-width: 20px;
+    text-align: center;
+    margin: auto;
+}
+.footer-text {
+    margin-top: 20px;
+    color: #a2aaae;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+}
+.logos-images {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.logos-images img {
+    width: 150px;
+    margin-left: 60px;
+}
+@media only screen and (max-width: 600px) {
+    .details-box {
+        padding: 0px;
+    }
+    .quote-icon {
+        width: 40px;
+    }
+    .logos-images {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .logos-images img {
+        display: block;
+        margin: 20px auto;
+        width: 50vw;
+    }
+}
+.paper {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+    border-color: #dedede;
+}
+.paper-raise:hover {
+    box-shadow: 0 3px 5px 2px #484646 !important;
+    transition: all 250ms ease-out;
+}
+.paper-raise {
+    transition: all 250ms ease-out;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    outline-width: 0 !important;
+}
+.card {
+    border-radius: 15px !important;
+}
+.detail button {
+    font-family: Poppins, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .details-box h1 {
+        color: #1dc778;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+/*RESPONSIVE DESIGN */
+.tilt-in-fwd-tr {
+    -webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.card-deck{
+    cursor: pointer;
+}
+
+.bounce-top {
+    -webkit-animation: bounce-top 0.9s both;
+    animation: bounce-top 0.9s both;
+}
+@-webkit-keyframes bounce-top {
+    0% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        -webkit-transform: translateY(-24px);
+        transform: translateY(-24px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    65% {
+        -webkit-transform: translateY(-12px);
+        transform: translateY(-12px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    82% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    93% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+@keyframes bounce-top {
+    0% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        -webkit-transform: translateY(-24px);
+        transform: translateY(-24px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    65% {
+        -webkit-transform: translateY(-12px);
+        transform: translateY(-12px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    82% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    93% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+.kenburns-bottom-left {
+    -webkit-animation: kenburns-bottom-left 5s ease-out both;
+    animation: kenburns-bottom-left 5s ease-out both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-5-27 16:34:40
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation kenburns-bottom-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes kenburns-bottom-left {
+    0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 16% 84%;
+        transform-origin: 16% 84%;
+    }
+    100% {
+        -webkit-transform: scale(1.25) translate(-20px, 15px);
+        transform: scale(1.25) translate(-20px, 15px);
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+    }
+}
+@keyframes kenburns-bottom-left {
+    0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 16% 84%;
+        transform-origin: 16% 84%;
+    }
+    100% {
+        -webkit-transform: scale(1.25) translate(-20px, 15px);
+        transform: scale(1.25) translate(-20px, 15px);
+        -webkit-transform-origin: left bottom;
+        transform-origin: left bottom;
+    }
+}
+
+
