@@ -10,7 +10,9 @@ class ProducCall extends React.Component {
             <div className="col-md-12">
               <div className="product-call-head">¿Cómo funciona?</div>
 
-              {this.props.lines.map((data) => {
+              {this.props.lines &&
+                this.props.lines.map((data,index) => {
+
                 return (
                   <div className="product-call-text">
                     <p>
@@ -19,7 +21,10 @@ class ProducCall extends React.Component {
                     </p>
                   </div>
                 );
-              })}
+              })
+
+              }
+
               <button className="product-register-button font-bold"><a href={this.props.link}>¡Regístrate ahora! </a></button>
             </div>
           </div>
