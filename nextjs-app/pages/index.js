@@ -5,6 +5,7 @@ import Head from "next/head";
 import Header from "./shared/Header";
 import Footer from "./shared/Footer";
 import Download from "./shared/Download";
+import Layout from "../components/layout";
 
 class Home extends React.Component {
     constructor(props) {
@@ -17,6 +18,7 @@ class Home extends React.Component {
 
     render() {
         return (
+            <Layout>
             <div>
                 <Header page="landing"/>
 
@@ -118,6 +120,7 @@ class Home extends React.Component {
 
                 <Footer/>
             </div>
+            </Layout>
         );
     }
 }
