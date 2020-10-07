@@ -8,7 +8,7 @@ import ProducCall from "./shared/ProducCall";
 import Download from "./shared/Download";
 import Register from "./shared/Register";
 
-class Merchant extends React.Component {
+class Tiendas extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -24,8 +24,17 @@ class Merchant extends React.Component {
 
     render() {
         return (
+            <>
+        <Head>
+        <meta name="description" content="Abre tu tienda online en Coco Mercado y genera ingresos que no se devalúen. ¡Únete ya a nuestra red de aliados comerciales!" />
+        <meta property="og:title" content="Coco Mercado - Aliados Comerciales" key="ogtitle" />
+        <meta property="og:description" content="Abre tu tienda online en Coco Mercado y genera ingresos que no se devalúen. ¡Únete ya a nuestra red de aliados comerciales!" />
+        <meta property="og:image" content="https://aliados.cocomercado.com/images/123.png" key="ogimage" />
+        <meta property="og:url" content="https://aliados.cocomercado.com/tiendas" key="ogurl" />
+        <title>Coco Mercado - Aliados Comerciales</title>
+      </Head>
             <div>
-                <Header page="merchant" link={this.state.link}/>
+                <Header page="tiendas" link={this.state.link}/>
 
                 <header>
                     <div className="carousel-inner" role="listbox">
@@ -136,8 +145,9 @@ class Merchant extends React.Component {
 
                 <Footer/>
             </div>
+            </>
         );
     }
 }
 
-export default Merchant;
+export default Tiendas;

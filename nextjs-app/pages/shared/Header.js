@@ -1,4 +1,5 @@
 import React from "react";
+import Router from "next/router";
 
 class Header extends React.Component {
   constructor(props) {
@@ -7,6 +8,10 @@ class Header extends React.Component {
       responsive: true,
     };
   }
+
+  goto(e) {
+    Router.push("/" + e);
+}
 
 
   setResponsive(e) {
@@ -179,7 +184,6 @@ class Header extends React.Component {
                     ¡Regístrate ya!
                   </a>
                 </li>
-                <hr className="hr-respo" />
                 {/*<li className="nav-item active">*/}
                 {/*  <a className=" nav-white font-bold" href="/#">*/}
                 {/*    Inicio*/}
@@ -187,9 +191,27 @@ class Header extends React.Component {
                 {/*  </a>*/}
                 {/*</li>*/}
                 <hr className="hr-respo" />
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className=" nav-white font-poppins" href="/#">
                     Blog
+                  </a>
+                </li> */}
+                {/* <hr className="hr-respo" /> */}
+                <li className="nav-item">
+                  <a className=" nav-white font-poppins" onClick={() => this.goto("tiendas")}>
+                   Tiendas
+                  </a>
+                </li>
+                <hr className="hr-respo" />
+                <li className="nav-item">
+                  <a className=" nav-white font-poppins" onClick={() => this.goto("repartidores")}>
+                    Repartidores
+                  </a>
+                </li>
+                <hr className="hr-respo" />
+                <li className="nav-item">
+                  <a className=" nav-white font-poppins" onClick={() => this.goto("productores")}>
+                    Productores
                   </a>
                 </li>
                 <hr className="hr-respo" />

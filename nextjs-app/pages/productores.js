@@ -18,6 +18,15 @@ class Productores extends React.Component {
 
   render() {
     return (
+      <>
+       <Head>
+        <meta name="description" content="¡Vende tus productos en Coco Mercado! Amplia tu alcance en una plataforma nacional con estándares internacionales" />
+        <meta property="og:title" content="Coco Mercado - Productores" key="ogtitle" />
+        <meta property="og:description" content="¡Vende tus productos en Coco Mercado! Amplia tu alcance en una plataforma nacional con estándares internacionales" />
+        <meta property="og:image" content="https://aliados.cocomercado.com/images/113.png" key="ogimage" />
+        <meta property="og:url" content="https://aliados.cocomercado.com/productores" key="ogurl" />
+        <title>Coco Mercado - Productores</title>
+      </Head>
       <div>
         <Header page="productores" link={this.state.link}/>
 
@@ -86,6 +95,7 @@ class Productores extends React.Component {
 
         <Footer />
       </div>
+      </>
     );
   }
 }
