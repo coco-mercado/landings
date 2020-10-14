@@ -41,7 +41,7 @@ class Home extends React.Component {
                             <div className="cards-custom">
 
                                 <div className="  card-deck text-center">
-                                    <div  onClick={() => this.goto("merchant")} className="bounce-top card mb-4 shadow-sm">
+                                    <div  onClick={() => this.goto("tiendas")} className="bounce-top card mb-4 shadow-sm">
                                         <div className="font-normal card-body">
                                             <img src="images/Aliados.png" alt=""/>
                                             <h1 className="card-title pricing-card-title">Aliado</h1>
@@ -52,7 +52,7 @@ class Home extends React.Component {
                                         </div>
                                         <div className="detail">
                                             <button
-                                                onClick={() => this.goto("merchant")}
+                                                onClick={() => this.goto("tiendas")}
                                                 className="landing_btn paper-raise"
                                             >
                                                 ¡Regístrate!

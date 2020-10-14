@@ -23,6 +23,15 @@ class Repartidores extends React.Component {
 
   render() {
     return (
+      <>
+      <Head>
+        <meta name="description" content="¡Únete al equipo de Coco Repartidores! Sé tu propio jefe y genera ingresos extras por cada entrega realizada" />
+        <meta property="og:title" content="Coco Mercado - Repartidores" key="ogtitle" />
+        <meta property="og:description" content="¡Únete al equipo de Coco Repartidores! Sé tu propio jefe y genera ingresos extras por cada entrega realizada" />
+        <meta property="og:image" content="https://aliados.cocomercado.com/images/108.png" key="ogimage" />
+        <meta property="og:url" content="https://aliados.cocomercado.com/productores" key="ogurl" />
+        <title>Coco Mercado - Repartidores</title>
+      </Head>
       <div>
         <Header page="repartidore" link={this.state.link}/>
 
@@ -120,6 +129,7 @@ class Repartidores extends React.Component {
 
         <Footer />
       </div>
+      </>
     );
   }
 }
