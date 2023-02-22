@@ -16,7 +16,7 @@ class Tiendas extends React.Component {
                 "Vende 24/7",
                 "Cobra en dólares el total de las ventas realizadas en la semana",
                 "Controla tu stock digitalmente"
-            ],link:["https://cocomarket.typeform.com/aliadoscoco22"]
+            ],link:["https://cocomarket.typeform.com/aliadoscoco"]
         };
     }
 
